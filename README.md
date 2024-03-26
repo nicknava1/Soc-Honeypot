@@ -1,15 +1,14 @@
 <h1>Creating an SOC and Honeypot in Azure</h1>
 <h2>Project Description</h2>
 
-<p>This project involves setting up an SOC on Microsoft Azure consisting of a Log Analytics Workspace, Virtual Machine (Honeypot), and Microsoft Sentinel (SIEM). Then, To ensure the VM is properly set up, I'll connect to it using Windows Remote Desktop and check out the event viewer. In part 2 of this project, I will use Powershell to export geographical data from failed login attempts into my Log Analytics Workspace. Finally, I will use Microsoft Sentinel to create a threatmap and geolocate our attackers. The purpose of this project is to better understand the technique, tactics and procedures utilized by hackers to take advantage of vulnerable systems.</p>
+<p>This project involves setting up an SOC on Microsoft Azure consisting of a Log Analytics Workspace, Virtual Machine (Honeypot), and Microsoft Sentinel (SIEM). Then, To ensure the VM is properly set up, I'll connect to it using Windows Remote Desktop and check out the event viewer. The purpose of this project is to better understand the technique, tactics and procedures utilized by hackers to take advantage of vulnerable systems.</p>
 
 <h1>Skills and Tools used</h1>
 
 - Microsoft Azure (VLAN, Network Security Group, Defender for Cloud)
 - Microsoft Sentinel
-- Virtual Machine Deployment
+- Virtual Machines
 - Log Analysis
-- PowerShell Scripting
 - Windows Remote Desktop
 - Event Viewer
 
@@ -65,7 +64,7 @@ Let's dig a little deeper, and check out the event properties.
 
 ![4](https://github.com/nicknava1/Soc-Honeypot/blob/main/Remote%20Desktop%20login/4.png)
 
-Here we can see the IP address associated with this failed login attempt. This is the information my Powershell Script will use to obtain our unsuspecting hackers' geographical location. That, however, will have to wait until next time! In part two, I will use Microsoft sentinel to create a Threat map of our hackers from around the globe.
+Here we can see the IP address associated with this failed login attempt. Security logs contain a staggering amount of data about users who try to connect to a device.
 
 <h1>Conclusion</h1>
-In this project, I practiced utilizing Microsoft Azure to deploy a VM, VLAN, NSG, and SIEM tool. Afterwords, I connected to the virtual network using my desktop computer, and viewed a security log using Event Viewer.
+In this project, I practiced utilizing Microsoft Azure to deploy a VM, VLAN, NSG, and SIEM tool. Afterwords, I connected to the virtual network using my desktop computer, and viewed a security log using Event Viewer. In my next project, I will use Powershell to export geographical data from failed login attempts into my Log Analytics Workspace. Finally, I will use Microsoft Sentinel to create a threatmap and geolocate our attackers.
