@@ -67,4 +67,11 @@ Let's dig a little deeper, and check out the event properties.
 Here we can see the IP address associated with this failed login attempt. Security logs contain a staggering amount of data about users who try to connect to a device.
 
 <h1>Conclusion</h1>
-In this project, I practiced utilizing Microsoft Azure to deploy a VM, VLAN, NSG, and SIEM tool. Afterwords, I connected to the virtual network using my desktop computer, and viewed a security log using Event Viewer. In my next project, I will use Powershell to export geographical data from failed login attempts into my Log Analytics Workspace. Finally, I will use Microsoft Sentinel to create a threatmap and geolocate our attackers.
+
+In this project, we embarked on the journey of creating a Security Operations Center (SOC) and deploying a Honeypot environment in Microsoft Azure. By leveraging the capabilities of Azure services such as Virtual Machines, Log Analytics Workspace (LAW), and Microsoft Sentinel (SIEM), we established a robust test environment to delve into the techniques, tactics, and procedures employed by malicious actors to exploit vulnerable systems.
+
+The setup process involved meticulous configuration of network security groups (NSGs) to define custom network rules, ensuring the honeypot VM's exposure to incoming traffic for monitoring and analysis purposes. Additionally, the integration of LAW and Sentinel provided the necessary infrastructure for centralized log analysis and real-time threat detection.
+
+With the SOC architecture in place, we validated its functionality by accessing the VM using Windows Remote Desktop, enabling us to observe and analyze security events, including failed login attempts. By scrutinizing event properties and associated IP addresses, we gained insights into potential security vulnerabilities and the tactics employed by adversaries.
+
+This project underscores the importance of proactive security measures and hands-on experience in understanding and mitigating cybersecurity threats. By simulating real-world scenarios within a controlled environment, we enhance our preparedness to defend against evolving cyber threats and fortify our systems against potential breaches. In my next project, I will use Powershell to export geographical data from failed login attempts into my Log Analytics Workspace. Finally, I will use Microsoft Sentinel to create a threatmap and geolocate our attackers.
