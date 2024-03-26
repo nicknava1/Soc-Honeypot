@@ -1,7 +1,7 @@
 <h1>Creating an SOC and Honeypot in Azure</h1>
 <h2>Project Description</h2>
 
-<p>This project involves setting up an SOC on Microsoft Azure consisting of a Log Analytics Workspace, Virtual Machine (Honeypot), and Microsoft Sentinel (SIEM). Then, To ensure the VM is properly set up, I'll connect to it using Windows Remote Desktop and check out the event viewer. The purpose of this project is to better understand the technique, tactics and procedures utilized by hackers to take advantage of vulnerable systems.</p>
+<p>This project involves setting up an SOC on Microsoft Azure consisting of a Log Analytics Workspace, Virtual Machine (Honeypot), and Microsoft Sentinel (SIEM). Then, To ensure the VM is properly set up, I'll connect to it using Windows Remote Desktop and check out the event viewer. The purpose of this project is to create a test environment so I can better understand the technique, tactics and procedures utilized by hackers to take advantage of vulnerable systems.</p>
 
 <h1>Skills and Tools used</h1>
 
