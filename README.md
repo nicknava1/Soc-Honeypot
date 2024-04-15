@@ -3,7 +3,7 @@
 
 <p>This project involves setting up an SOC on Microsoft Azure consisting of a Log Analytics Workspace, Virtual Machine (Honeypot), and Microsoft Sentinel (SIEM). Then, To ensure the VM is properly set up, I'll connect to it using Windows Remote Desktop and check out the event viewer. Afterwords, I will use PowerShell to extract security log data and extrapolate the latitude and longitude of attackers that try to access the honeypot. The purpose of this project is to create a test environment so I can better understand the technique, tactics and procedures utilized by hackers to take advantage of vulnerable systems.</p>
 
-<h1>Skills and Tools used</h1>
+<h1>Environments and Tools</h1>
 
 - Microsoft Azure (VLAN, Network Security Groups, Virtual Machines)
 - Microsoft Sentinel
