@@ -3,7 +3,7 @@
 
 <p>This project involves setting up an SOC on Microsoft Azure consisting of a Log Analytics Workspace, Virtual Machine (Honeypot), and Microsoft Sentinel (SIEM). Then, To ensure the VM is properly set up, I'll connect to it using Windows Remote Desktop and check out the event viewer. Afterwords, I will use PowerShell to extract security log data and extrapolate the latitude and longitude of attackers that try to access the honeypot. The purpose of this project is to create a test environment so I can better understand the technique, tactics and procedures utilized by hackers to take advantage of vulnerable systems.</p>
 
-<h1>Environments and Tools</h1>
+<h2>Environments and Tools</h2>
 
 - Microsoft Azure (VLAN, Network Security Groups, Virtual Machines)
 - Microsoft Sentinel
@@ -12,7 +12,7 @@
 - Windows Remote Desktop
 - Event Viewer
 
-<h1>Setting up the SOC</h1>
+<h2>Setting up the SOC</h2>
 
 <p>The first step is deploying a virtual machine (VM) in Azure.</p>
 
@@ -42,7 +42,7 @@
 
 <p>With the mini SOC completed, lets see if we can connect to the virtual machine using Windows Remote Desktop!</p>
 
-<h1>Accessing the VM using Window Remote Desktop</h1>
+<h2>Accessing the VM using Window Remote Desktop</h2>
 
 First I get the IP address of the VM from Azure. Then I launch Windows Remote Desktop on my computer.
 
